@@ -1,0 +1,55 @@
+
+
+body{
+  background-color: #7e57c2;;
+}
+
+.title{
+  text-align: center;
+}
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text{
+  width: 25%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.text:hover{
+  border: 1px solid rgb(12, 1, 1);
+}
+
+.add{
+  background-color: black;
+  color: white;
+  padding: 8px 22px;
+  margin-left: 1rem;
+  border-radius:10px;
+
+}
+
+.todoBox{
+  display: flex;
+  position: relative;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.text{
+  width: 40%;
+}
+
+.icons{
+  display: flex;
+  position: absolute;
+  right: 10%;
+  gap: 20px;
+}
